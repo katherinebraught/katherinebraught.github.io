@@ -1,10 +1,16 @@
 # Dependencies
-markdown:         redcarpet
-highlighter:      pygments
+
+# redcarpet is removed in https://github.com/jekyll/jekyll/issues/6981
+#markdown:         redcarpet2
+
+# Pygments -> Rouge
+highlighter:      Rouge
 
 # Permalinks
 permalink:        pretty
-relative_permalinks: true
+
+# Not supported since Jekyllv3.0
+#relative_permalinks: true
 
 # Setup
 title:            Hyde
@@ -24,3 +30,7 @@ version:          2.1.0
 
 github:
   repo:           https://github.com/poole/hyde
+
+plugins:
+  - jekyll-paginate
+  - jekyll-gist
