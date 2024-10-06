@@ -19,13 +19,21 @@ jobs:
 
       - uses: cachix/install-nix-action@v30
 
-      - run: nix run .#publish
+      - uses: peaceiris/actions-hugo@v3
+        with:
+          extended: true
 
-        # --force ignores the .gitignore
-      - run: git add --force docs/
+      - run: |
+          set -x +e
+          hugo --minify 2>&1 | tee hugo.output
+
+      - run: "git add --force docs/ hugo.output"
+      # --force ignores the .gitignore
 
       - uses: stefanzweifel/git-auto-commit-action@v5
+        if: always()
         with:
-          commit_message: "Build ${GITHUB_SHA}"
+          commit_message: "Build ${{ github.sha }}"
           branch: built
           create_branch: true
+          push_options: --force

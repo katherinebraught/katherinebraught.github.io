@@ -285,7 +285,7 @@ Menus:
       weight: 2
 
     # The original theme left this as a comment
-	  # I guess they wanted to have an example of it, without actually doing it:
+    # I guess they wanted to have an example of it, without actually doing it:
 
     #Dropdown menu
     # - identifier: dropdown
