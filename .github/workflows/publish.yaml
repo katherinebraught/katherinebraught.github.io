@@ -1,0 +1,28 @@
+name: "Publish"
+on:
+  push:
+    branches:
+      - main
+jobs:
+  publish:
+
+    permissions:
+      contents: write
+
+    runs-on: ubuntu-latest
+    steps:
+
+      - uses: actions/checkout@v4
+        with:
+          submodules: true
+          ref: ${{ github.head_ref }}
+
+      - uses: cachix/install-nix-action@v30
+
+      - run: nix run .#publish
+
+      - uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "Build ${GITHUB_SHA}"
+          branch: built
+          create_branch: true

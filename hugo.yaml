@@ -1,6 +1,8 @@
-baseURL: "https://hugo-profile.netlify.app"
+publishDir: docs
+
+baseURL: "https://katherinebraught.github.io"
 languageCode: "en-us"
-title: "Hugo Profile"
+title: "Katherine Bruaght's webpage"
 theme: hugo-profile
 
 outputs:
@@ -12,7 +14,8 @@ outputs:
     - "HTML"
     - "RSS"
 
-Paginate: 3
+pagination:
+  pagerSize: 3
 enableRobotsTXT: true
 # disqusShortname: your-disqus-shortname
 # googleAnalytics: G-MEASUREMENT_ID
