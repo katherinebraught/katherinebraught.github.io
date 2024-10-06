@@ -21,6 +21,9 @@ jobs:
 
       - run: nix run .#publish
 
+        # --force ignores the .gitignore
+      - run: git add --force docs/
+
       - uses: stefanzweifel/git-auto-commit-action@v5
         with:
           commit_message: "Build ${GITHUB_SHA}"
