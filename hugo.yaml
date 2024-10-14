@@ -14,7 +14,7 @@ params:
   # TODO:
   title: " Katherine"
 
-  description: Text about my cool site
+  description: Katherine Braught's personal website
 
   # I simply went on https://favicon.io/favicon-generator/
   # and chose the default "K"
@@ -29,8 +29,8 @@ params:
     enable: true
     intro: "Hi, my name is"
     title: "Katherine."
-    subtitle: "I build things for the web"
-    content: "A passionate web app developer. I tend to make use of modern web technologies to build websites that look great, feel fantastic, and function correctly."
+    subtitle: "I care about Computer Science students' learning."
+    content: "I am a CS education researcher, with a background in formal methods. I am interesting in how students learn theory and how we can teach and structure theory classes equitably."
     image: /images/hero.svg # static/ is implied in front of this path
 
     button:
