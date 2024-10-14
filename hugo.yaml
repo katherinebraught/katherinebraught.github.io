@@ -31,7 +31,7 @@ params:
     title: "Katherine."
     subtitle: "I care about Computer Science students' learning."
     content: "I am a CS education researcher, with a background in formal methods. I am interesting in how students learn theory and how we can teach and structure theory classes equitably."
-    image: /images/hero.svg # static/ is implied in front of this path
+    image: /images/katherine_braught.jpg # static/ is implied in front of this path
 
     button:
       enable: true
