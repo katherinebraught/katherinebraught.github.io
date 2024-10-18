@@ -51,7 +51,7 @@ params:
 
   # About
   about:
-    enable: true
+    enable: false
     title: "About Me"
     image: "/images/me.png"
     content: |-
@@ -59,7 +59,7 @@ params:
 
       I am currently working on a project that will be used to help people find the best way to get around the city.
     skills:
-      enable: true
+      enable: false
       title: "Here are a few technologies I've been working with recently:"
       items:
         - "HTML"
@@ -71,7 +71,7 @@ params:
 
   # Experience
   experience:
-    enable: true
+    enable: false
     # title: "Custom Name"
     items:
       - job: "Senior Software Developer"
@@ -136,7 +136,7 @@ params:
 
   # Education
   education:
-    enable: true
+    enable: false
     # title: "Custom Name"
     index: false
     items:
@@ -179,7 +179,7 @@ params:
 
   # Achievements
   achievements:
-    enable: true
+    enable: false
     # title: "Custom Name"
     items:
       - title: Google kickstart runner
@@ -201,7 +201,7 @@ params:
 
   # projects
   projects:
-    enable: true
+    enable: false
     # title: "Custom Name"
     items:
       - title: Hugo Profile
