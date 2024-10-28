@@ -34,20 +34,20 @@ params:
     image: /images/katherine_braught.jpg # static/ is implied in front of this path
 
     button:
-      enable: true
+      enable: false
       name: "Resume"
       url: "#"
       download: true
       newPage: false
     socialLinks:
       fontAwesomeIcons:
-        - icon: fab fa-github
-          url: https://example.com
-        - icon: fab fa-x-twitter
-          url: https://example.com
-      customIcons:
-        - icon: /fav.png
-          url: "https://example.com"
+        - icon: fab fa-linkedin
+          url: https://www.linkedin.com/in/katherine-braught/
+        - icon: fab fa-google
+          url: https://scholar.google.com/citations?user=e68MjK4AAAAJ&hl=en
+      #customIcons:
+      #  - icon: /fav.png
+      #    url: "https://example.com"
 
   # About
   about:
