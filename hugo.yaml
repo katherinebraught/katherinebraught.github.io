@@ -68,7 +68,10 @@ params:
         - "React"
         - "Node"
         - "Express"
-
+  contact:
+    enable: true
+    title: "Contact"
+    content: "Contact me at : braught2 [at] illinois.edu"
   # Experience
   experience:
     enable: false
