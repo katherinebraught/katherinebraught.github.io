@@ -29,8 +29,8 @@ params:
     enable: true
     intro: "Hi, my name is"
     title: "Katherine."
-    subtitle: "I care about Computer Science students' learning."
-    content: "I am a CS education researcher, with a background in formal methods. I am interesting in how students learn theory and how we can teach and structure theory classes equitably."
+    subtitle: "I care about Computer Science Theory Education."
+    content: "I am a CS education researcher, with a background in formal methods. I am interesting in how students learn theory and how we can broaden participation in high level courses. I am also interested in student motivation to pursue formal methods."
     image: /images/katherine_braught.jpg # static/ is implied in front of this path
 
     button:
