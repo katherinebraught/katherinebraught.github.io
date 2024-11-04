@@ -2,7 +2,7 @@ publishDir: docs
 
 baseURL: "https://katherinebraught.github.io"
 languageCode: "en-us"
-title: "Katherine Bruaght's webpage"
+title: "K Braught"
 theme: hugo-profile
 
 
@@ -34,11 +34,11 @@ params:
     image: /images/katherine_braught.jpg # static/ is implied in front of this path
 
     button:
-      enable: false
+      enable: true
       name: "Resume"
-      url: "#"
-      download: true
-      newPage: false
+      url: "https://github.com/katherinebraught/katherinebraught.github.io/BraughtResume.pdf"
+      download: false
+      newPage: true
     socialLinks:
       fontAwesomeIcons:
         - icon: fab fa-linkedin
@@ -140,14 +140,14 @@ params:
     # title: "Custom Name"
     index: false
     items:
-      - title: "Master of Business Administration"
+      - title: "Master of Science in Computer Science"
         school:
-          name: "University of California, Berkeley"
-          url: "https://example.org"
-        date: "2013 - 2015"
-        GPA: "3.8 out of 5.0"
+          name: "University of Illinois Urbana-Champaign"
+          #url: "https://example.org"
+        date: "2021 - 2024"
+        GPA: "4.0 out of 4.0"
         content: |-
-          Extracurricular Activities
+          Masters Thesis
             - Lorem ipsum dolor sit amet consectetur adipisicing elit.
             - Tempora esse, eaque delectus nulla quo doloribus itaque expedita alias natus optio totam maxime nihil excepturi velit a animi laborum hic similique.
       - title: "Bachelor of Science in Computer Science"
