@@ -273,16 +273,16 @@ markup:
 # TODO: Change this stuff
 Menus:
   main:
-    - identifier: blog
-      name: Blog
-      title: Blog posts
-      url: /blogs
-      weight: 1
-    - identifier: gallery
-      name: Gallery
-      title: Blog posts
-      url: /gallery
-      weight: 2
+   # - identifier: blog
+   #   name: Blog
+   #   title: Blog posts
+   #   url: /blogs
+   #   weight: 1
+   # - identifier: gallery
+   #   name: Gallery
+   #   title: Blog posts
+   #   url: /gallery
+   #   weight: 2
 
     # The original theme left this as a comment
     # I guess they wanted to have an example of it, without actually doing it:
