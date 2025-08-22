@@ -57,11 +57,11 @@ params:
 
   # About
   about:
-    enable: false
+    enable: true
     title: "About Me"
     image: "/images/me.png"
     content: |-
-        I am a teacher. I care about my students and their learning. I currently work as a TA for algorithms and a teaching assistant seminar. 
+        Hi! I’m Katherine. I’m a PhD student at UIUC studying Computer Science Education, but my path here has been a bit winding. I originally studied biology, but a required CS course showed me where my interests truly lay. Since then, I’ve explored bioinformatics research and formal methods research—until finding my way back to my truest joy: teaching. I enjoy research ways to improve student experiences in theory classrooms. Most importantly, I love working with students, encouraging them, and helping them feel comfortable as they tackle challenging concepts. 
     skills:
       enable: false
       title: "df"
@@ -94,25 +94,29 @@ params:
           - Facilitated discussions and created a responsive curriculum to match students' needs and interests
 
       - job: "Ph.D. Student Researcher"
-        company: "NASA Langley"
+        company: "NASA"
         companyUrl: "https://www.nasa.gov/langley"
         date: "May 2023 - Aug 2023"
         info:
-          enable: true
+          enable: false
           content: "Mentor: Alwyn Goodloe, Ph.D."
         content: |
+          NASA Langley
+          Mentor: Alwyn Goodloe, Ph.D.
           - Implemented probabilistic monitoring in Copilot
           - Developed examples for Copilot monitoring
 
       - job: "Ph.D. Student Researcher"
-        company: "Air Force Research Laboratory"
+        company: "Air Force Research"
         companyUrl: "https://www.afrl.af.mil/"
         date: "May 2022 - Aug 2022"
         info:
-          enable: true
+          enable: false
           content: "Mentor: Kerrianne Hobbs, Ph.D."
         content: |
+          Air Force Research Laboratory
           Wright-Patterson AFB
+          Mentor: Kerrianne Hobbs, Ph.D.
           - Synthesized a reinforcement learning controller for the Inspection Problem
           - Integrated runtime assurance into a RL controller
 
@@ -128,18 +132,19 @@ params:
           - Implemented new data type support for a database
 
       - job: "Platform Software Engineering Co-op"
-        company: "Collins Aerospace (of Raytheon Technologies)"
+        company: "Raytheon"
         companyUrl: "https://www.collinsaerospace.com/"
         date: "Jan 2019 - Jul 2019"
         info:
           enable: false
           content: ""
         content: |
+          Collins Aerospace (of Raytheon Technologies)
           - Developed platform level software for touch screen hardware in C
           - Created and maintained nightly continuous integration testing using Atlassian tools and Tcl scripting
 
       - job: "Software Development Intern"
-        company: "Workiva Inc."
+        company: "Workiva"
         companyUrl: "https://www.workiva.com/"
         date: "May 2018 - Dec 2018"
         info:
@@ -150,36 +155,41 @@ params:
           - Maintained existing programs and implemented new features
 
       - job: "NSF REU Researcher"
-        company: "Carnegie Mellon University, Software Engineering Institute"
+        company: "CMU"
         companyUrl: "https://sei.cmu.edu/"
         date: "May 2020 - Sept 2020"
         info:
-          enable: true
+          enable: false
           content: "Mentor: Eunsuk Kang, Ph.D."
         content: |
+          Carnegie Mellon University, Software Engineering Institute
+          Mentor: Eunsuk Kang, Ph.D.
           - Utilized formal methods to reason about erroneous human behavior in medical devices
           - Developed a tool to generate erroneous behavior through phenotypical errors
           - Formally defined high order phenotype errors through regular expressions
 
       - job: "NSF Bioinformatics REU Researcher"
-        company: "Auburn University, Department of Weed and Soil Sciences"
+        company: "Auburn"
         companyUrl: "https://agriculture.auburn.edu/department/weed-science/"
         date: "May 2017 - July 2017"
         info:
-          enable: true
+          enable: false
           content: "Mentor: Scott McElroy, Ph.D."
         content: |
+          Auburn University, Department of Weed and Soil Sciences
+          Mentor: Scott McElroy, Ph.D.
           - Analyzed *Euphorbia maculata* genome utilizing Biopython and Unix scripting in an HPC cluster
           - Extracted DNA from field samples of *Euphorbia* plants
 
       - job: "QuarkNet Student Researcher"
-        company: "University of Iowa, Department of Physics / CERN"
+        company: "CERN"
         companyUrl: "https://physics.uiowa.edu/"
         date: ""
         info:
           enable: false
           content: ""
         content: |
+          University of Iowa, Department of Physics / CERN
           - Developed a scintillating plate material for potential use in the CERN particle collider
           - Set up muon telescopes for data collection
 
