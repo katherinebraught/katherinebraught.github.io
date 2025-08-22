@@ -39,6 +39,12 @@ params:
       url: "files/BraughtResume.pdf"
       download: false
       newPage: true
+    #button:
+    #  enable: true
+    #  name: "Publications"
+    #  url: https://scholar.google.com/citations?user=e68MjK4AAAAJ&hl=en
+    #  download: false
+    #  newPage: true 
     socialLinks:
       fontAwesomeIcons:
         - icon: fab fa-linkedin
@@ -55,10 +61,10 @@ params:
     title: "About Me"
     image: "/images/me.png"
     content: |-
-        I am a teacher. I care about my students and their learning. I currently work as a TA for discrete math and a teaching assistant seminar. 
+        I am a teacher. I care about my students and their learning. I currently work as a TA for algorithms and a teaching assistant seminar. 
     skills:
       enable: false
-      title: "Here are a few technologies I've been working with recently:"
+      title: "df"
       items:
         - "HTML"
         - "CSS"
@@ -141,33 +147,45 @@ params:
     # title: "Custom Name"
     index: true
     items:
+      - title: "PhD in Compter Science"
+        school:
+            name: "University of Illinois Urbana-Champaign"
+        date: "2021 - present"
+        content: |-
+             Reserach area: Computers and Education
+             Disseration Topic: Motivating Students in CS Theory Classes
+        featuredLink:
+            enable: true
+            name: "Publication Record"
+            url: "https://scholar.google.com/citations?user=e68MjK4AAAAJ&hl=en"
       - title: "Master of Science in Computer Science"
         school:
           name: "University of Illinois Urbana-Champaign"
           #url: "https://example.org"
         date: "2021 - 2024"
-        GPA: "4.0"
+        GPA: "4.0 out of 4.0"
         content: |-
           Masters Thesis
           "On multi-agent hybrid system verification: Modeling in verse, star sets, and user studies"
-	featuredLink: enable: true
-        name: "Thesis"
-        url: "https://www.ideals.illinois.edu/items/132676"  
+        featuredLink: 
+            enable: true
+            name: "Thesis"
+            url: "https://www.ideals.illinois.edu/items/132676"  
       - title: "Bachelor of Science in Computer Science"
         school:
           name: "Iowa State University"
           #url: "https://example.org"
         date: "2016 - 2020"
-        GPA: "4.0"
+        GPA: "4.0 out of"
         #minor: Biology
         content: |-
-		During my undergraduate years, I worked on Bioinformatics research. Under Professor David Fernandz-Baca, I contributed to the paper "Checking Phylogenetics Decisiveness in Theory and in Practice." 
-My contribution included formulating an ILP version of a hypergraph coloring problem, programming both the SAT and ILP problem formulations and developing data reduction strategies.
-	
-		At Iowa State, I also developed a passion for teaching. There, I TA'ed for an advanced C programming class, guiding students through a semester long project. For three semesters, I was a TA for Introduction to the Design and Analysis of Algorithms. In this role, I taught a weekly discussion section, held office hours, and graded student work. These experiences were the most enjoyable of my time in college and led me to apply for a PhD. 
-	featuredLink: enable: true
-	name: "Publication"
-	url: "https://pubmed.ncbi.nlm.nih.gov/34784284/"
+            During my undergraduate years, I worked on Bioinformatics research. Under Professor David Fernandz-Baca, I contributed to the paper "Checking Phylogenetics Decisiveness in Theory and in Practice." 
+            My contribution included formulating an ILP version of a hypergraph coloring problem, programming both the SAT and ILP problem formulations and developing data reduction strategies.
+            At Iowa State, I also developed a passion for teaching. There, I TA'ed for an advanced C programming class, guiding students through a semester long project. For three semesters, I was a TA for Introduction to the Design and Analysis of Algorithms. In this role, I taught a weekly discussion section, held office hours, and graded student work. These experiences were the most enjoyable of my time in college and led me to apply for a PhD. 
+        featuredLink: 
+            enable: true
+            name: "Publication"
+            url: "https://pubmed.ncbi.nlm.nih.gov/34784284/"
 
   # Achievements
   achievements:
