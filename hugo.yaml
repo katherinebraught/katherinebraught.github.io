@@ -152,8 +152,8 @@ params:
           "On multi-agent hybrid system verification: Modeling in verse, star sets, and user studies"
 	featuredLink: 
 		enable: true
-        	name: "Thesis"
-        	url: "https://www.ideals.illinois.edu/items/132676"  
+		name: "Thesis"
+		url: "https://www.ideals.illinois.edu/items/132676"  
       - title: "Bachelor of Science in Computer Science"
         school:
           name: "Iowa State University"
