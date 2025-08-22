@@ -81,37 +81,15 @@ params:
     enable: true
     # title: "Custom Name"
     items:
-      - job: "Teaching Assistant"
-        company: "University of Illinois, CS 173 Discrete Structures"
-        companyUrl: "https://cs.illinois.edu/"
-        date: "Aug 2024 - May 2025"
-        info:
-          enable: false
-          content: ""
-        content: |
-          - Taught students in weekly tutorial (approx. 200 students) and office hours (2–10 students)
-          - Graded biweekly exams covering proof techniques
-
-      - job: "Course Assistant"
-        company: "University of Illinois, CS 591 Teaching Assistant Training"
-        companyUrl: "https://cs.illinois.edu/"
-        date: "Aug 2024 - Present"
-        info:
-          enable: false
-          content: ""
-        content: |
-          - Managed attendance of approx. 300 students
-          - Graded student reflection assignments
-          - Developed and improved training lectures for engineering TAs
-
       - job: "Instructor, CS+X Summer Camp"
-        company: "Illinois Math and Science Academy (IMSA)"
+        company: "IMSA"
         companyUrl: "https://www.imsa.edu/"
         date: "June 2025"
         info:
           enable: false
           content: ""
-        content: |
+        content: |-
+          Illinois Math and Science Academy
           - Worked with 20 students for a 40-hour week teaching Python and various CS+X topics
           - Facilitated discussions and created a responsive curriculum to match students' needs and interests
 
@@ -127,13 +105,14 @@ params:
           - Developed examples for Copilot monitoring
 
       - job: "Ph.D. Student Researcher"
-        company: "Air Force Research Laboratory, Wright-Patterson AFB"
+        company: "Air Force Research Laboratory"
         companyUrl: "https://www.afrl.af.mil/"
         date: "May 2022 - Aug 2022"
         info:
           enable: true
           content: "Mentor: Kerrianne Hobbs, Ph.D."
         content: |
+          Wright-Patterson AFB
           - Synthesized a reinforcement learning controller for the Inspection Problem
           - Integrated runtime assurance into a RL controller
 
@@ -147,17 +126,6 @@ params:
         content: |
           - Developed software in proprietary language for IBMi
           - Implemented new data type support for a database
-
-      - job: "Teaching Assistant"
-        company: "Iowa State University, COM S 311 Introduction to Algorithm Analysis and Design"
-        companyUrl: "https://cs.iastate.edu/"
-        date: "Aug 2019 - Nov 2020"
-        info:
-          enable: false
-          content: ""
-        content: |
-          - Taught a recitation of about 25 students weekly and held weekly office hours for 5–20 students
-          - Graded theoretical and application algorithm assignments
 
       - job: "Platform Software Engineering Co-op"
         company: "Collins Aerospace (of Raytheon Technologies)"
@@ -180,17 +148,6 @@ params:
         content: |
           - Developed microservices in Java on an Agile team
           - Maintained existing programs and implemented new features
-
-      - job: "Teaching Assistant"
-        company: "Iowa State University, COM S 327 Advanced Programming Techniques"
-        companyUrl: "https://cs.iastate.edu/"
-        date: "Aug 2018 - Dec 2018"
-        info:
-          enable: false
-          content: ""
-        content: |
-          - Assisted 5–30 students during office hours two hours a week
-          - Graded and debugged 20 student C/C++ assignments weekly
 
       - job: "NSF REU Researcher"
         company: "Carnegie Mellon University, Software Engineering Institute"
