@@ -148,7 +148,7 @@ params:
     index: true
     items:
       - title: "PhD in Compter Science"
-	school:
+          school:
 	  name: "University of Illinois Urbana-Champaign"
         date: "2021 - present"
         content: |-
