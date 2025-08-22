@@ -77,10 +77,6 @@ params:
     title: "Contact"
     content: "Contact me at : braught2 [at] illinois.edu"
   # Experience
-  experience:
-    enable: true
-    # title: "Custom Name"
-    items:
 experience:
   enable: true
   items:
