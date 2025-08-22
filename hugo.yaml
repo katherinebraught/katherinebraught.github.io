@@ -147,6 +147,17 @@ params:
     # title: "Custom Name"
     index: true
     items:
+      - title: "PhD in Compter Science"
+	school:
+	  name: "University of Illinois Urbana-Champaign"
+        date: "2021 - present"
+        content: |-
+             Reserach area: Computers and Education
+             Disseration Topic: Motivating Students in CS Theory Classes
+	featuredLink:
+		enable: true
+		name: "Publication Record"
+		url: "https://scholar.google.com/citations?user=e68MjK4AAAAJ&hl=en"
       - title: "Master of Science in Computer Science"
         school:
           name: "University of Illinois Urbana-Champaign"
