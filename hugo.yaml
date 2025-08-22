@@ -39,6 +39,12 @@ params:
       url: "files/BraughtResume.pdf"
       download: false
       newPage: true
+    button:
+      enable: true
+      name: "Publications"
+      url: https://scholar.google.com/citations?user=e68MjK4AAAAJ&hl=en
+      download: false
+      newPage: true 
     socialLinks:
       fontAwesomeIcons:
         - icon: fab fa-linkedin
@@ -55,10 +61,10 @@ params:
     title: "About Me"
     image: "/images/me.png"
     content: |-
-        I am a teacher. I care about my students and their learning. I currently work as a TA for discrete math and a teaching assistant seminar. 
+        I am a teacher. I care about my students and their learning. I currently work as a TA for algorithms and a teaching assistant seminar. 
     skills:
       enable: false
-      title: "Here are a few technologies I've been working with recently:"
+      title: "df"
       items:
         - "HTML"
         - "CSS"
