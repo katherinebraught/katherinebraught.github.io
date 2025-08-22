@@ -267,7 +267,6 @@ params:
         content: |-
             During my undergraduate years, I worked on Bioinformatics research. Under Professor David Fernandz-Baca, I contributed to the paper "Checking Phylogenetics Decisiveness in Theory and in Practice." 
             My contribution included formulating an ILP version of a hypergraph coloring problem, programming both the SAT and ILP problem formulations and developing data reduction strategies.
-	        
             At Iowa State, I also developed a passion for teaching. There, I TA'ed for an advanced C programming class, guiding students through a semester long project. For three semesters, I was a TA for Introduction to the Design and Analysis of Algorithms. In this role, I taught a weekly discussion section, held office hours, and graded student work. These experiences were the most enjoyable of my time in college and led me to apply for a PhD. 
         featuredLink: 
             enable: true
