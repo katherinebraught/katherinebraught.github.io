@@ -163,7 +163,7 @@ params:
           name: "University of Illinois Urbana-Champaign"
           #url: "https://example.org"
         date: "2021 - 2024"
-        GPA: "4.0"
+        GPA: "4.0 out of 4.0"
         content: |-
           Masters Thesis
           "On multi-agent hybrid system verification: Modeling in verse, star sets, and user studies"
@@ -176,7 +176,7 @@ params:
           name: "Iowa State University"
           #url: "https://example.org"
         date: "2016 - 2020"
-        GPA: "4.0"
+        GPA: "4.0 out of"
         #minor: Biology
         content: |-
 		During my undergraduate years, I worked on Bioinformatics research. Under Professor David Fernandz-Baca, I contributed to the paper "Checking Phylogenetics Decisiveness in Theory and in Practice." 
