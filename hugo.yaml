@@ -62,7 +62,7 @@ params:
   about:
     enable: true
     title: "About Me"
-    image: "/images/me.png"
+    image: "/images/tashi.jpg"
     content: |
         Hi! I’m Katherine. I’m a PhD student at UIUC studying Computer Science Education, but my path here has been a bit winding. I originally studied biology, but a required CS course showed me where my interests truly lay. Since then, I’ve explored bioinformatics research and formal methods research until finding my way back to my truest joy: teaching. I enjoy research ways to improve student experiences in theory classrooms. Most importantly, I love working with students, encouraging them, and helping them feel comfortable as they tackle challenging concepts. 
         
@@ -241,9 +241,11 @@ params:
           name: "Iowa State University"
           #url: "https://example.org"
         date: "2016 - 2020"
-        GPA: "4.0 out of"
+        GPA: "4.0 out of 4.0"
         #minor: Biology
         content: |-
+            Minor: Biology
+            
             During my undergraduate years, I worked on Bioinformatics research. Under Professor David Fernandz-Baca, I contributed to the paper "Checking Phylogenetics Decisiveness in Theory and in Practice." 
             My contribution included formulating an ILP version of a hypergraph coloring problem, programming both the SAT and ILP problem formulations and developing data reduction strategies.
             
