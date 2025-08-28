@@ -354,7 +354,7 @@ Menus:
     - identifier: resource
       name: Compassionate Teaching
       title: Compassionate Teaching
-      url: /comphandout.md
+      url: /files/compteaching.html
       weight: 1
    # - identifier: gallery
    #   name: Gallery
