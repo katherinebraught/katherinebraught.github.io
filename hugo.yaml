@@ -349,13 +349,13 @@ markup:
       unsafe: true
 
 # TODO: Change this stuff
-#Menus:
-#  main:
-   # - identifier: blog
-   #   name: Blog
-   #   title: Blog posts
-   #   url: /blogs
-   #   weight: 1
+Menus:
+  main:
+    - identifier: resource
+      name: Compassionate Teaching
+      title: Compassionate Teaching
+      url: /files/comphandout.md
+      weight: 1
    # - identifier: gallery
    #   name: Gallery
    #   title: Blog posts
