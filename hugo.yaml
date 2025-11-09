@@ -33,7 +33,7 @@ params:
     intro: "Hi, my name is"
     title: "Katherine."
     subtitle: "I care about Computer Science Theory Education."
-    content: "I am a CS education researcher, with a background in formal methods. I am interested in how students learn theory and how we can broaden participation in high level courses. I am also interested in student motivation."
+    content: "I am a CS education researcher, with a background in formal methods. I am interested in how students learn theory and how we can make high level courses more welcoming. I am also interested in student motivation."
     image: /images/katherine_braught.jpg # static/ is implied in front of this path
 
     button:
