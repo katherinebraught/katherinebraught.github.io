@@ -14,11 +14,14 @@ Compassion can be define as a four stage process:
 3. Feeling empathic concern for those who are experiencing the suffering  
 4. Acting to alleviate the suffering to some extent at least
 
+
 (Worline & Dutton, 2017\) (Parattukudi, 2019\)
+Definition directly from: Killingback et al., 2025
 
 # Compassionate Pedagogy
 
-Compassionate pedagogy requires the following four actions:
+Compassionate pedagogy requires the following four actions as stated by Killingback et al. (2025)
+:
 
 1. A noticing of suffering, distress, or disadvantage   
 2. A commitment to address or mitigate the suffering, distress, or disadvantage   
@@ -34,6 +37,7 @@ You may notice that I switch between the words pedagogy and teaching. When I fir
 # Strategies:
 
 Below, I have shared a list of compassionate teaching strategies that may be useful to a TA. These come from the review paper, “Compassionate pedagogy in higher education: A scoping review” by Dr Clare Killingbacka, Amy Tomlinsona, and Professor Julian Sternb (2024). This review paper compiled information from most peer-reviewed papers on compassionate pedagogy to create this list. While there are many ways to practice compassionate pedagogy at an institution or program level, the lists below are strategies that may be helpful as a TA/instructor. I have first highlighted several that may be most useful to TAs with a limited role in course policy/set up. 
+These strategies were orginally compiled by Killingback et al. (2025) and are taken directly from their paper.
 
 ## Selected Strategies:
 
