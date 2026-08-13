@@ -1,0 +1,16 @@
+WARN  deprecated: project config key languageCode was deprecated in Hugo v0.158.0 and will be removed in a future release. Use locale instead.
+Start building sites … 
+hugo v0.165.0-76a5e1880ab46688155b02e99bab9be2a6134492+extended linux/amd64 BuildDate=2026-08-12T14:26:28Z VendorInfo=gohugoio
+
+
+                  │  EN  
+──────────────────┼──────
+ Pages            │   12 
+ Paginator pages  │    0 
+ Non-page files   │    0 
+ Static files     │ 2061 
+ Processed images │    0 
+ Aliases          │    2 
+ Cleaned          │    0 
+
+Total in 378 ms
