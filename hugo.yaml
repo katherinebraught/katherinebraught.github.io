@@ -38,7 +38,7 @@ params:
 
     button:
       enable: true
-      name: "Resume"
+      name: "My CV"
       url: "files/BraughtResume.pdf"
       download: false
       newPage: true
